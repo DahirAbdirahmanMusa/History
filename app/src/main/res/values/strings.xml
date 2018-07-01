@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">History Quiz</string>
+    <string name="question_one">Which country was blamed for the outbreak of WWI?</string>
+    <string name="Name">Name</string>
+    <string name="answer1">ITALY</string>
+    <string name="answer2">FRANCE</string>
+    <string name="answer3">GERMANY</string>
+    <string name="answer4">ENGLAND</string>
+    <string name="question_two">where did WW1 took place</string>
+    <string name="answer5">ITALY</string>
+    <string name="answer6">FRANCE</string>
+    <string name="answer7">GERMANY</string>
+    <string name="answer8">Europe</string>
+    <string name="question_three">Which empire supported the Germans</string>
+    <string name="answer9">Europe</string>
+    <string name="answer10">ROMAN</string>
+    <string name="answer11">OTOMAN</string>
+    <string name="answer12">TURKEY</string>
+    <string name="question_four">In which country did the WW1 stated</string>
+    <string name="answer13">TURKEY</string>
+    <string name="answer14">FRANCE</string>
+    <string name="answer15">Austria-Hungary</string>
+    <string name="answer16">GERMANY</string>
+    <string name="quiz_TWO">quiz two</string>
+    <string name="quiz_Three">quiz three</string>
+    <string name="quiz_Four">quiz four</string>
+    <string name="quiz_one">quiz one</string>
+    <string name="submit">SUBMIT</string>
+
+
+
+
+
+
+
+</resources>

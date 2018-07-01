@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/history"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           *** //quiz number one
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="@string/Name"
+                android:inputType="textPersonName"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:id="@+id/QuizNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name"
+                android:padding="8dp"
+                android:text="@string/quiz_one"
+                android:textColor="#FF9800"
+                android:textSize="30sp"
+
+                />
+
+            <TextView
+                android:id="@+id/QuestionOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/QuizNumber"
+                android:text="@string/question_one"
+                android:textSize="27sp"
+                />
+
+
+            <Button
+                android:id="@+id/choose1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuestionOne"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer1"
+                android:onClick="oa"/>
+
+            <Button
+                android:id="@+id/choose2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose1"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer2"
+                android:onClick="ob"
+
+                />
+
+            <Button
+                android:id="@+id/choose3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose2"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer3"
+                android:onClick="oc"/>
+
+            <Button
+                android:id="@+id/choose4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose3"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer4"
+                android:onClick="od"/>
+
+            //Quiz number two
+
+            <TextView
+                android:id="@+id/QuizNumber2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose4"
+                android:padding="8dp"
+                android:text="@string/quiz_TWO"
+                android:textColor="#FF9800"
+                android:textSize="30sp"
+
+                />
+
+            <TextView
+                android:id="@+id/QuestionOne2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/QuizNumber2"
+                android:text="@string/question_two"
+                android:textSize="27sp" />
+
+            <Button
+                android:id="@+id/choose5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuestionOne2"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer5"
+                android:onClick="tha"/>
+
+            <Button
+                android:id="@+id/choose6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose5"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer6"
+                android:onClick="thb"
+
+                />
+
+            <Button
+                android:id="@+id/choose7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose6"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer7"
+                android:onClick="thc"/>
+
+            <Button
+                android:id="@+id/choose8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose7"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer8"
+                android:onClick="thd" />
+            //quiz number 3
+
+            <TextView
+                android:id="@+id/QuizNumber3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose8"
+                android:padding="8dp"
+                android:text="@string/question_three"
+                android:textColor="#FF9800"
+                android:textSize="30sp"
+
+                />
+
+            <TextView
+                android:id="@+id/QuestionOne3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/QuizNumber3"
+                android:text="@string/question_three"
+                android:textSize="27sp" />
+
+            <Button
+                android:id="@+id/choose9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuestionOne3"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer9"
+                android:onClick="ta"
+                />
+
+            <Button
+                android:id="@+id/choose10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose9"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer10"
+                android:onClick="tb"
+
+                />
+
+            <Button
+                android:id="@+id/choose11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose10"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer11"
+                android:onClick="tc"
+
+                />
+
+            <Button
+                android:id="@+id/choose12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose11"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer12"
+                android:onClick="td"
+
+                />
+            //quiz four
+
+            <TextView
+                android:id="@+id/QuizNumber4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose12"
+                android:padding="8dp"
+                android:text="@string/quiz_Four"
+                android:textColor="#FF9800"
+                android:textSize="30sp"
+
+                />
+
+            <TextView
+                android:id="@+id/QuestionOne4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/QuizNumber4"
+                android:text="@string/question_four"
+                android:textSize="27sp" />
+
+            <Button
+                android:id="@+id/choose13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/QuestionOne4"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer13"
+                android:onClick="fa"/>
+
+            <Button
+                android:id="@+id/choose14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose13"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer14"
+                android:onClick="fb"
+
+                />
+
+            <Button
+                android:id="@+id/choose15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose14"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer15"
+                android:onClick="fc"/>
+
+
+            <Button
+                android:id="@+id/choose16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose15"
+                android:layout_marginTop="16dp"
+                android:text="@string/answer16"
+                android:onClick="fd"/>
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/choose16"
+                android:textSize="25sp"/>
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:textSize="28sp"
+                android:layout_below="@id/message"
+                android:onClick="SUBMIT"
+
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
